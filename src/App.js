@@ -1,16 +1,12 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 import './App.css';
+import Nav from './Nav';
 
 function App() {
   return (
     <div className="App">
-      <Link className="link" to="/">
-        Home
-      </Link>
-      <Link className="link" to="/structural/adapter/blueprint">
-        AdapterBlueprint
-      </Link>
+      <Nav />
       <Outlet />
     </div>
   );

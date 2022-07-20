@@ -1,6 +1,13 @@
 .App {
   color: darkslategray;
   font-family: monospace;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
 }
 
 .link {
